@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - WaterMax Water Monitoring System</title>
+                <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> WaterMax™</h1>
+            <p class="subtitle">Advanced Water Monitoring System</p>
+            <div class="wireless-badge"> 100% WIRELESS SYSTEM</div>
+        </div>
+
+        <div class="content">
+            <div class="intro">
+                <p>Welcome to <strong>WaterMax™</strong> – your intelligent, fully wireless solution for real-time water quality and level monitoring. Designed with cutting-edge IoT technology, our system ensures optimal performance, safety, and efficiency for all your water management needs.</p>
+            </div>
+
+            <h2 style="text-align: center; color: #293df0; font-size: 2.5em; margin-bottom: 30px;">Why Choose WaterMax?</h2>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <span class="feature-icon">📡</span>
+                    <h3>Fully Wireless</h3>
+                    <p>No cables, no hassle! Complete wireless monitoring via Wi-Fi 802.11 b/g/n. Access your data from anywhere, anytime.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">⚡</span>
+                    <h3>Real-Time Monitoring</h3>
+                    <p>Instant access to water levels and turbidity data with automatic updates every 5 seconds on your dashboard.</p>
+                </div>
+
+                <div class="feature-card">
+                    <span class="feature-icon">🎯</span>
+                    <h3>Precision Sensors</h3>
+                    <p>Advanced ultrasonic and turbidity sensors provide accurate measurements (0-10 NTU range) for reliable monitoring.</p>
+                </div>
+
+
+                <div class="feature-card">
+                    <span class="feature-icon">🔒</span>
+                    <h3>Secure & Reliable</h3>
+                    <p>Your data is protected with encryption, stored securely, and accessible through our user-friendly interface.</p>
+                </div>
+            </div>
+
+            <div class="specs-section">
+                <h2>Technical Specifications</h2>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <h4>Microcontroller</h4>
+                        <p>ESP32 (WiFi Enabled)</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Level Sensor</h4>
+                        <p>HC-SR04 Ultrasonic</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Turbidity Range</h4>
+                        <p>0 - 10 NTU</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Display</h4>
+                        <p>16x2 I2C LCD</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Power Supply</h4>
+                        <p>5V DC</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Connectivity</h4>
+                        <p>Wi-Fi 802.11 b/g/n</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Control System</h4>
+                        <p>Automatic Relay Module</p>
+                    </div>
+                    <div class="spec-item">
+                        <h4>Indicators</h4>
+                        <p>LED Status Lights</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="components-section">
+                <h2>System Components</h2>
+                <div class="components-list">
+                    <div class="component-tag">🎛️ ESP32 Microcontroller</div>
+                    <div class="component-tag">📏 HC-SR04 Ultrasonic Sensor</div>
+                    <div class="component-tag">💧 Turbidity Sensor</div>
+                    <div class="component-tag">⚙️ Relay Module</div>
+                    <div class="component-tag">📺 LCD Display (16x2 I2C)</div>
+                    <div class="component-tag">💡 LED Indicators</div>
+                    <div class="component-tag">🔌 Power Supply Unit</div>
+                    <div class="component-tag">🔗 Wireless Connectivity</div>
+                </div>
+            </div>
+
+            <div class="mission-section">
+                <h2>Our Mission</h2>
+                <p>We empower individuals and businesses to manage their water resources more effectively through innovative wireless technology. By leveraging IoT, AI, and advanced sensors, we create sustainable solutions that ensure clean water, optimal usage, and anticipate tomorrow's challenges. Every drop counts, and we're here to help you make the most of every single one.</p>
+            </div>
+
+            <div class="cta-section">
+                <h2>Ready to Get Started?</h2>
+                <p>Join thousands of users who trust WaterMax for smarter, more efficient, and sustainable water management.</p>
+                <a href="index.php" class="cta-button">Go to Dashboard →</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scroll animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add hover effect animations
+        const cards = document.querySelectorAll('.feature-card');
+        cards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transition = 'all 0.3s ease';
+            });
+        });
+    </script>
+</body>
+</html>
